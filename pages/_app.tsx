@@ -10,7 +10,7 @@ const queryClient = new QueryClient()
 const Layout = ({ children }): ReactElement => (
   <div>
     <Head>
-      <title>Next Micro Blog Sample</title>
+      <title>Levi</title>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <div className="w-full">

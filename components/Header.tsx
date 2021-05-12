@@ -10,7 +10,7 @@ const Header = (): ReactElement => {
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold text-gray-800 md:text-3xl">
             <Link href="/">
-              <a>Next Micro Blog Sample</a>
+              <a>Levi</a>
             </Link>
           </div>
           <div className="group md:hidden">
@@ -47,14 +47,14 @@ const Header = (): ReactElement => {
               </li>
               {!loading && !session && (
                 <li>
-                  <button className="dropdown-button" onClick={() => signIn}>
+                  <button className="dropdown-button" onClick={() => signIn()}>
                     Sign in
                   </button>
                 </li>
               )}
               {!loading && session && (
                 <li>
-                  <button className="dropdown-button" onClick={() => signOut}>
+                  <button className="dropdown-button" onClick={() => signOut()}>
                     Sign out
                   </button>
                 </li>
@@ -98,7 +98,7 @@ const Header = (): ReactElement => {
                     </Link>
                   </li>
                   <li>
-                    <button className="dropdown-button" onClick={() => signOut}>
+                    <button className="dropdown-button" onClick={() => signOut()}>
                       Sign out
                     </button>
                   </li>

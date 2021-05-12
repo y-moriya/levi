@@ -7,6 +7,6 @@ services:
     volumes:
       - ./pgdata:/var/lib/postgresql/data
     environment:
-      - POSTGRES_USER=next-micro-blog-sample
+      - POSTGRES_USER=levi
       - POSTGRES_PASSWORD=admin
-      - POSTGRES_DB=next-micro-blog-sample
+      - POSTGRES_DB=levi
